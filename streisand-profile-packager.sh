@@ -16,7 +16,7 @@ streisand_www_dir="/var/www/streisand"
 streisand_ov_dir="${streisand_www_dir}/openvpn"
 streisand_wg_dir="${streisand_www_dir}/wireguard"
 
-output_dir="/root/vpn-profiles"
+output_dir="/root/${name_prefix}-vpn-profiles"
 
 output_global_dir="${output_dir}/all"
 
